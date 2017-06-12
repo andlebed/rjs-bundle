@@ -25,6 +25,7 @@ require.config({
     "aurelia-task-queue": "node_modules/aurelia-task-queue/dist/amd/aurelia-task-queue",
     "aurelia-templating": "node_modules/aurelia-templating/dist/amd/aurelia-templating",
     "aurelia-templating-binding": "node_modules/aurelia-templating-binding/dist/amd/aurelia-templating-binding",
+    // "aurelia-plugins-google-recaptcha": "node_modules/aurelia-plugins-google-recaptcha/dist/amd/aurelia-plugins-google-recaptcha",
     //"aurelia-ui-virtualization": "node_modules/aurelia-ui-virtualization/dist/amd/aurelia-ui-virtualization",
     "text": "node_modules/text/text",
     "es6": "node_modules/requirejs-babel/es6",
@@ -58,6 +59,11 @@ require.config({
       location: 'node_modules/aurelia-validation/dist/amd',
       main : 'aurelia-validation'
     },
+    {
+      name: 'aurelia-plugins-google-recaptcha',
+      location: 'node_modules/aurelia-plugins-google-recaptcha/dist/amd',
+      main: 'aurelia-plugins-google-recaptcha'
+    }
   ],
   config: {
     es6: { stage: 0 }
